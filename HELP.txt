@@ -1,0 +1,37 @@
+    LZW & RLC & huff mancompress/decompress is free software: you can redistribute 
+    it and/or modify. It under the terms of the GNU General Public License as 
+    published by the Free Software Foundation, either version 3 of the License
+    , or any later version.
+
+    LZW & RLC & huff compress/decompress is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+...
+you can chek details in LICENSE.
+--------------------------------------------------------------------------
+|                     LZW & RLC & huff compress/decompress               |
+|                          version beta 0.3 2021/6/03                    |
+|                                                                        |
+|                           Author: Wang ChengHua                        |
+|                                                                        |
+|                       under GNU GENERAL PUBLIC LICENSE                 |
+--------------------------------------------------------------------------
+this program focus on compress.(a data struct homework)
+mode:
+-h    to print this file,some mode options include.
+-RLC:
+    -c     E.g '-RLC -c from_pth to_pth' compress by RLC method.
+    -d     E.g '-RLC -d from_pth to_pth' decompress by RLC method.
+-LZW:
+    -c     E.g '-LZW -c from_pth to_pth' compress by LZW method.
+    -d     E.g '-LZW -d from_pth to_pth' decompress by LZW method.
+-HUF
+    -c     E.g '-HUF -c from_pth to_pth' compress by huffman method.
+    -d     E.g '-HUF -d from_pth to_pth' decompress by huffman method.
+    
+    important: the file compressed by LZW must be .nz, it's a binary file
+    So,in -c to_pth & -d from_pth must be "/default.nz".
